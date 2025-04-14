@@ -85,8 +85,8 @@ body{
 }
 
 .header-content h1{
-    font-size:75px ;
-    line-height: 80px;
+    font-size:65px ;
+    line-height: 70px;
     color: #F9FAFC;
     text-transform: uppercase;
     margin-bottom: 35px;
@@ -469,6 +469,12 @@ input[type="submit"]{
 
     .menu .navbar ul li {
         width: 100%;
+    }
+
+    .h1{ 
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .menu:checked ~ .navbar{ 
